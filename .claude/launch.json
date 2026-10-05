@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "vinyl", "runtimeExecutable": "npx", "runtimeArgs": ["-y", "http-server", "-p", "8080", "-c-1", "-s"], "port": 8080 }
+  ]
+}

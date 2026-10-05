@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Vinyl</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>My Vinyl <small id="summary"></small></h1>
+  <div class="controls">
+    <div class="seg" role="group" aria-label="Grouping">
+      <button data-group="all" aria-pressed="true">All</button>
+      <button data-group="artist" aria-pressed="false">Artist</button>
+    </div>
+    <input class="search" type="search" placeholder="Search: artist, album, label…" aria-label="Search">
+  </div>
+</header>
+<main id="shelves"></main>
+<div id="probe"></div>
+
+<dialog id="detail"></dialog>
+
+<script src="data/collection.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
