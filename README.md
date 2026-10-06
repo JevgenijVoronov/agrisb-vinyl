@@ -1,4 +1,4 @@
-# agrisb vinyl
+# agrisb vinyl page
 
 A vinyl collection (Discogs user `agrisb`), displayed as covers on wooden shelves.
 
@@ -16,3 +16,4 @@ node scripts/build-data.mjs
 ```
 
 View locally: `npx http-server -p 8080`, then open http://localhost:8080
+
